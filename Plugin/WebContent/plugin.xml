@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.GitIn</class>
+    <name>GitIn</name>
+    <description>Allows user to put git commands through Openfire. 
+                    Openfire acts a GUI.</description>
+                    <author>
+                        Devarshi Bhatt and Shubham Khandelwal
+                    </author>
+                    <version>1.0</version>
+                    <date>06/17/2014</date>
+                    <minServerVersion>2.2.22</minServerVersion>
+                    
+                    <adminconsole>
+                        <tab id="tab-users">
+                            <sidebar id="sidebar-users">
+                              <item id="gitin-form" name="GitIn Properties"
+                                    url = "gitin-form.jsp" 
+                                    description="Settings for Gitin"/>  
+                            </sidebar>
+                        </tab>
+                    </adminconsole>
+</plugin>
